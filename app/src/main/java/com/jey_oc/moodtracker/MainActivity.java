@@ -1,5 +1,6 @@
 package com.jey_oc.moodtracker;
 
+import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -36,5 +37,17 @@ public class MainActivity extends AppCompatActivity {
     private EditText input;
     // a value to keep comment that user will input
     private String mText = "";
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+
+        // set the activity_main.xml
+        setContentView(com.jey_oc.moodtracker.R.layout.activity_main);
+
+    }
+
+
 
 }
