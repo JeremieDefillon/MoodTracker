@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jey_oc.moodtracker.Historical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFC9C9C9"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/day7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/cornflower_blue_65">
+
+            <TextView
+                android:id="@+id/day7_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:text="7 days ago"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/day7_com"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:visibility="visible"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/ic_comment_black_48px"/>
+
+            <Button
+                android:id="@+id/day7_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:background="#00000000"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/day6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/faded_red">
+
+            <TextView
+                android:id="@+id/day6_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:text="6 days ago"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/day6_com"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:visibility="visible"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/ic_comment_black_48px"/>
+
+            <Button
+                android:id="@+id/day6_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:background="#00000000"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/day5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/warm_grey">
+
+            <TextView
+                android:id="@+id/day5_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:text="5 days ago"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/day5_com"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:visibility="visible"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/ic_comment_black_48px"/>
+
+            <Button
+                android:id="@+id/day5_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:background="#00000000"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/day4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/faded_red">
+
+            <TextView
+                android:id="@+id/day4_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:text="4 days ago"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/day4_com"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:visibility="visible"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/ic_comment_black_48px"/>
+
+            <Button
+                android:id="@+id/day4_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:background="#00000000"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/day3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/faded_red">
+
+            <TextView
+                android:id="@+id/day3_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:text="3 days ago"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/day3_com"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:visibility="visible"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/ic_comment_black_48px"/>
+
+            <Button
+                android:id="@+id/day3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:background="#00000000"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/day2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/light_sage">
+
+            <TextView
+                android:id="@+id/day2_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:text="2 days ago"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/day2_com"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:visibility="visible"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/ic_comment_black_48px"/>
+
+            <Button
+                android:id="@+id/day2_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:background="#00000000"/>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/day1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/banana_yellow">
+
+            <TextView
+                android:id="@+id/day1_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif"
+                android:text="Yesterday"
+                android:textAlignment="viewStart"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/day1_com"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:visibility="visible"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/ic_comment_black_48px"/>
+
+            <Button
+                android:id="@+id/day1_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible"
+                android:background="#00000000"/>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

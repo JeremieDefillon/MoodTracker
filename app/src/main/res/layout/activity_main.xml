@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jey_oc.moodtracker.MainActivity">
+
+    <ImageView
+        android:id="@+id/share_0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/share_0" />
+    <ImageView
+        android:id="@+id/share_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/share_1" />
+    <ImageView
+        android:id="@+id/share_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/share_2" />
+    <ImageView
+        android:id="@+id/share_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/share_3" />
+    <ImageView
+        android:id="@+id/share_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/share_4" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/smiley_0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff9ec4f"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/smiley_super_happy" />
+
+            <ImageView
+                android:id="@+id/smiley_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffb8e986"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/smiley_happy" />
+
+            <ImageView
+                android:id="@+id/smiley_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#a5468ad9"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/smiley_normal" />
+
+            <ImageView
+                android:id="@+id/smiley_3"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_gravity="center"
+                android:background="#ff9b9b9b"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/smiley_disappointed" />
+
+            <ImageView
+                android:id="@+id/smiley_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#de3c50"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/smiley_sad" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/comment_btn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="250dp"
+        android:adjustViewBounds="true"
+        android:background="#00ffffff"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:minHeight="20dp"
+        android:minWidth="20dp"
+        android:padding="4dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_note_add_black"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/share_btn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:adjustViewBounds="true"
+        android:background="#00ffffff"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:minHeight="20dp"
+        android:minWidth="20dp"
+        android:padding="4dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_share_mood"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/historical_btn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginLeft="200dp"
+        android:adjustViewBounds="true"
+        android:background="#00ffffff"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:minHeight="20dp"
+        android:minWidth="20dp"
+        android:padding="4dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_history_black"
+        android:visibility="visible" />
+
+</RelativeLayout>
